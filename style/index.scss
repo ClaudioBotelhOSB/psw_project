@@ -224,12 +224,32 @@ p{
   left: 88px;
 }
 
+.tipo_planta {
+  color: rgba(105,105,105,1);
+  top: 80px;
+  left: 150px;
+}
+
 .line-planta {
   width: 600px;
   height: 110px;
   position: absolute;
   top: 150px;
   left: 10px;
+}
+
+.img-planta {
+  width: 110px;
+  height: 100px;
+  background: rgba(175,238,221,0.5);
+  opacity: 1;
+  display: inline-block;
+  flex-direction: column;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
 }
 
 .line-jardim {
@@ -314,4 +334,57 @@ p{
   position: absolute;
   top:  30px;
   right: 30px;
+}
+
+.seeds{
+  width: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+.tools{
+  width: 60px;
+  position: absolute;
+  bottom: 18px;
+  left: 140px;
+}
+
+
+.seed_numbers {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(182, 228, 210);
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  bottom: 13px;
+  left: 65px;
+  h6{
+    color: rgb(35, 114, 206);
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
+}
+
+.tool_numbers {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(182, 228, 210);
+  border-radius: 50%;
+  position: absolute;
+  display: inline-block;
+  bottom: 13px; 
+  left: 175px;
+  h6{
+    color: rgb(35, 114, 206);
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
 }
