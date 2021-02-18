@@ -176,6 +176,11 @@ h3{
   left: 30px;
 }
 
+label {
+  display: inline-block;
+  width: 5em;
+}
+
 .icons{
   color: rgba(0,0,0,1);
   position: relative;
@@ -288,6 +293,16 @@ p{
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   overflow: hidden;
+  h3{
+    position: absolute;
+    top:  20px;
+    left: 60px;
+    font-family: Ubuntu;
+    font-weight: Bold;
+    font-size: 16px;
+    opacity: 1;
+    text-align: left;
+  }
 }
 
  .relatorio .numeros{

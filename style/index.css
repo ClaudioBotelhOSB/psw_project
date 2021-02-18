@@ -280,6 +280,16 @@ p {
   border-bottom-right-radius: 20px;
   overflow: hidden;
 }
+.relatorio h3 {
+  position: absolute;
+  top: 20px;
+  left: 60px;
+  font-family: Ubuntu;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: left;
+}
 
 .relatorio .numeros {
   color: black;
